@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 const LandingPage = () => {
     return (
         <>
-            <HeroSection>
+            <HeroSection id='home'>
                 <HeroText>
                     <HeroHeading>
                         Bring a life back to power..
@@ -64,7 +64,7 @@ const LandingPage = () => {
                     </LinkText>
                 </LinkCard>
             </ImportantLinkCardContainer>
-            <NeedContainer>
+            <NeedContainer id='check'>
                 <NeedHead> Important Links</NeedHead>
                 <NeedLinkContainer>
                     <NeedLink to='/'>Need Blood</NeedLink>
@@ -87,7 +87,7 @@ export default LandingPage
 // Need container components(it contains some imp links on landing page)
 const NeedContainer = styled.div`
     background:url(${bloodBag});
-    height:100vh;
+    min-height:100vh;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:left;
@@ -102,6 +102,8 @@ const NeedContainer = styled.div`
     {
         padding:50px 10px;
         text-align:center;
+        background:none;
+        min-height:50vh;
     }
     
 `
@@ -127,8 +129,10 @@ const NeedLink = styled(Link)`
 
     @media screen and (max-width:500px)
     {
-        text-align:justify;
+        padding-left:50px;
+        text-align:left;
         color:rgb(70,70,70);
+        text-decoration:underline;
     }
 `
 

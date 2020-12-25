@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Navbar.css';
+import {ImDroplet} from 'react-icons/im';
 
 
 
@@ -14,17 +15,17 @@ const AboutUsMenuItems = [
     },
     {
         title: 'Support Us',
-        path: '/support',
+        path: '/about#support',
         cName: 'dropdown-link'
     },
     {
         title: 'Join Us',
-        path: '/join',
+        path: '/about#join',
         cName: 'dropdown-link'
     },
     {
         title: 'Contact Us',
-        path: '/contact',
+        path: '/about#contact',
         cName: 'dropdown-link'
     }
 ];
@@ -87,8 +88,7 @@ function Navbar() {
             <div>
                 <nav className='navbar'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        Life Savers
-          <i className='fab fa-firstdraft' />
+                        Life Savers <ImDroplet className='fab fa-firstdraft' />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

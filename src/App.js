@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Switch, HashRouter } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
+import About from './pages/About';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer';
 import styled from 'styled-components';
@@ -13,6 +14,7 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route path="/" exact component={LandingPage} />
+          <Route path="/about" exact component={About} />
         </Switch>
         <Footer />
       </Container>

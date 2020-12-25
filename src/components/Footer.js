@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const Footer = () => {
@@ -8,15 +8,15 @@ const Footer = () => {
         <>
             <FooterSection>
                 <FooterLinksContainer>
-                    <FooterLink to='/'>Home</FooterLink>
+                    <FooterLink to='/#home'>Home</FooterLink>
                     <FooterLink to='/blood-donation'>Blood donation</FooterLink>
                     <FooterLink to='/platelet-donation'>Platelet donation</FooterLink>
                     <FooterLink to='/thallasaemia-major'>Thallasaemia major</FooterLink>
                     <FooterLink to='/thallasaemia-minor'>Thallasaemia minor</FooterLink>
-                    <FooterLink to='/about'>About us</FooterLink>
-                    <FooterLink to='/support'>Support us</FooterLink>
-                    <FooterLink to='/join'>Join us</FooterLink>
-                    <FooterLink to='/contact'>Contact us</FooterLink>
+                    <FooterLink to='/about#about'>About us</FooterLink>
+                    <FooterLink to='/about#support'>Support us</FooterLink>
+                    <FooterLink to='/about#join'>Join us</FooterLink>
+                    <FooterLink to='/about#contact'>Contact us</FooterLink>
                 </FooterLinksContainer>
                 <SocialLinkContainer>
                     <DevLink href="#"><SocialIcon className='fab fa-facebook' /></DevLink>
