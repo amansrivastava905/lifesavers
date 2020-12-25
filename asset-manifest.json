@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/lifesavers/static/css/main.51c02728.chunk.css",
+    "main.js": "/lifesavers/static/js/main.ae3c9436.chunk.js",
+    "main.js.map": "/lifesavers/static/js/main.ae3c9436.chunk.js.map",
+    "runtime-main.js": "/lifesavers/static/js/runtime-main.e61c25fb.js",
+    "runtime-main.js.map": "/lifesavers/static/js/runtime-main.e61c25fb.js.map",
+    "static/js/2.eb5686b4.chunk.js": "/lifesavers/static/js/2.eb5686b4.chunk.js",
+    "static/js/2.eb5686b4.chunk.js.map": "/lifesavers/static/js/2.eb5686b4.chunk.js.map",
+    "index.html": "/lifesavers/index.html",
+    "static/css/main.51c02728.chunk.css.map": "/lifesavers/static/css/main.51c02728.chunk.css.map",
+    "static/js/2.eb5686b4.chunk.js.LICENSE.txt": "/lifesavers/static/js/2.eb5686b4.chunk.js.LICENSE.txt",
+    "static/media/blood-bag.5b124996.jpg": "/lifesavers/static/media/blood-bag.5b124996.jpg",
+    "static/media/blood-hand.623c73e9.jpg": "/lifesavers/static/media/blood-hand.623c73e9.jpg",
+    "static/media/hero-img.f909dcb9.jpg": "/lifesavers/static/media/hero-img.f909dcb9.jpg",
+    "static/media/platelet-bag.b518562f.jpg": "/lifesavers/static/media/platelet-bag.b518562f.jpg",
+    "static/media/thal-major.c2a45760.jpg": "/lifesavers/static/media/thal-major.c2a45760.jpg",
+    "static/media/thal-minor.e8441107.jpg": "/lifesavers/static/media/thal-minor.e8441107.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e61c25fb.js",
+    "static/js/2.eb5686b4.chunk.js",
+    "static/css/main.51c02728.chunk.css",
+    "static/js/main.ae3c9436.chunk.js"
+  ]
+}
