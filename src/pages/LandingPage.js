@@ -67,13 +67,12 @@ const LandingPage = () => {
             <NeedContainer id='check'>
                 <NeedHead> Important Links</NeedHead>
                 <NeedLinkContainer>
-                    <NeedLink to='/'>Need Blood</NeedLink>
-                    <NeedLink to='/'>Need Platelets</NeedLink>
-                    <NeedLink to='/'>Organise blood drive</NeedLink>
-                    <NeedLink to='/'>Want to donate blood</NeedLink>
-                    <NeedLink to='/'>Want to donate platelet</NeedLink>
-                    <NeedLink to='/'>Get tested for Thallasaemia minor</NeedLink>
-                    <NeedLink to='/'>Organise Thallasaemia minor screening drive</NeedLink>
+                    <NeedLink href='https://docs.google.com/forms/d/e/1FAIpQLSfNZKcObDUbJQJsMiIoj-fpYTN5adaQnZMAZ4KVgjgmpppjAg/viewform?usp=sf_link'>Need Blood</NeedLink>
+                    <NeedLink href='https://docs.google.com/forms/d/e/1FAIpQLSfNZKcObDUbJQJsMiIoj-fpYTN5adaQnZMAZ4KVgjgmpppjAg/viewform?usp=sf_link'>Need Platelets</NeedLink>
+                    <NeedLink href='https://docs.google.com/forms/d/e/1FAIpQLSdKFxLu0Z9MvVH8fjzw8yf1cK08j4smOl_UswYgVDfyixDY1w/viewform?usp=sf_link'>Organise blood drive</NeedLink>
+                    <NeedLink href='https://docs.google.com/forms/d/e/1FAIpQLSd5u7R2K8gn7Px0tA_jjYxQczeY1Hus8L_4BltDF3_1KjAeKg/viewform?usp=sf_link'>Want to donate blood</NeedLink>
+                    <NeedLink href='https://docs.google.com/forms/d/e/1FAIpQLSd5u7R2K8gn7Px0tA_jjYxQczeY1Hus8L_4BltDF3_1KjAeKg/viewform?usp=sf_link'>Want to donate platelet</NeedLink>
+                    <NeedLink href='https://docs.google.com/forms/d/e/1FAIpQLSdKFxLu0Z9MvVH8fjzw8yf1cK08j4smOl_UswYgVDfyixDY1w/viewform?usp=sf_link'>Organise Thallasaemia minor screening drive</NeedLink>
                 
                 </NeedLinkContainer>
             </NeedContainer>
@@ -113,10 +112,11 @@ const NeedLinkContainer = styled.div`
     flex-direction:column;
 `
 
-const NeedLink = styled(Link)`
+const NeedLink = styled.a`
     text-decoration:none;
     padding:10px;
     font-size:24px;
+    color:maroon;
     &:hover{
         text-decoration:underline;
         color:maroon;
@@ -129,10 +129,13 @@ const NeedLink = styled(Link)`
 
     @media screen and (max-width:500px)
     {
-        padding-left:50px;
-        text-align:left;
+        /* padding-left:50px; */
+        align-self:center;
+        max-width:300px;
+        text-align:center;
         color:rgb(70,70,70);
         text-decoration:underline;
+
     }
 `
 
@@ -234,7 +237,7 @@ const HeroText = styled.div`
     @media screen and (max-width:680px)
     {
         text-align:center;
-        padding: 20px 0px 0px 0px;
+        padding: 20px 0px 0px 20px;
         max-width:600px;
     }
 `
@@ -244,6 +247,7 @@ const HeroHeading = styled.h1`
     color:maroon;
     padding-bottom:20px;
     line-height:64px;
+    text-align:left;
 
     @media screen and (max-width:1030px)
     {
@@ -262,6 +266,7 @@ const HeroHeading = styled.h1`
 const HeroPara = styled.p`
     color:rgb(87,87,87);
     font-size:24px;
+    text-align:left;
 
     @media screen and (max-width:1030px)
     {

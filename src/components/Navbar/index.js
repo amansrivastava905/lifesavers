@@ -10,7 +10,7 @@ import {ImDroplet} from 'react-icons/im';
 const AboutUsMenuItems = [
     {
         title: 'Who we are',
-        path: '/about',
+        path: '/about#about',
         cName: 'dropdown-link'
     },
     {
@@ -34,7 +34,7 @@ const AboutUsMenuItems = [
 const KnowledgeCenterMenuItems = [
     {
         title: 'Blood donation',
-        path: '/blood-donation',
+        path: '/blood-donation#landing',
         cName: 'dropdown-link'
     },
     {
@@ -87,7 +87,7 @@ function Navbar() {
         <>
             <div>
                 <nav className='navbar'>
-                    <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to='/#home' className='navbar-logo' onClick={closeMobileMenu}>
                         Life Savers <ImDroplet className='fab fa-firstdraft' />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -95,7 +95,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/#home' className='nav-links' onClick={closeMobileMenu}>
                                 Home
             </Link>
                         </li>

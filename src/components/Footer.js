@@ -9,7 +9,7 @@ const Footer = () => {
             <FooterSection>
                 <FooterLinksContainer>
                     <FooterLink to='/#home'>Home</FooterLink>
-                    <FooterLink to='/blood-donation'>Blood donation</FooterLink>
+                    <FooterLink to='/blood-donation#landing'>Blood donation</FooterLink>
                     <FooterLink to='/platelet-donation'>Platelet donation</FooterLink>
                     <FooterLink to='/thallasaemia-major'>Thallasaemia major</FooterLink>
                     <FooterLink to='/thallasaemia-minor'>Thallasaemia minor</FooterLink>
