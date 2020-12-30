@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lifesavers/static/css/main.3c716896.chunk.css",
-    "main.js": "/lifesavers/static/js/main.6f3a89f3.chunk.js",
-    "main.js.map": "/lifesavers/static/js/main.6f3a89f3.chunk.js.map",
+    "main.js": "/lifesavers/static/js/main.3f5cd0a2.chunk.js",
+    "main.js.map": "/lifesavers/static/js/main.3f5cd0a2.chunk.js.map",
     "runtime-main.js": "/lifesavers/static/js/runtime-main.e61c25fb.js",
     "runtime-main.js.map": "/lifesavers/static/js/runtime-main.e61c25fb.js.map",
-    "static/js/2.498bbe11.chunk.js": "/lifesavers/static/js/2.498bbe11.chunk.js",
-    "static/js/2.498bbe11.chunk.js.map": "/lifesavers/static/js/2.498bbe11.chunk.js.map",
+    "static/js/2.b77ce2b1.chunk.js": "/lifesavers/static/js/2.b77ce2b1.chunk.js",
+    "static/js/2.b77ce2b1.chunk.js.map": "/lifesavers/static/js/2.b77ce2b1.chunk.js.map",
     "index.html": "/lifesavers/index.html",
     "static/css/main.3c716896.chunk.css.map": "/lifesavers/static/css/main.3c716896.chunk.css.map",
-    "static/js/2.498bbe11.chunk.js.LICENSE.txt": "/lifesavers/static/js/2.498bbe11.chunk.js.LICENSE.txt",
+    "static/js/2.b77ce2b1.chunk.js.LICENSE.txt": "/lifesavers/static/js/2.b77ce2b1.chunk.js.LICENSE.txt",
     "static/media/blood-bag.5b124996.jpg": "/lifesavers/static/media/blood-bag.5b124996.jpg",
     "static/media/blood-fact.f10f125e.jpg": "/lifesavers/static/media/blood-fact.f10f125e.jpg",
     "static/media/blood-hand.623c73e9.jpg": "/lifesavers/static/media/blood-hand.623c73e9.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e61c25fb.js",
-    "static/js/2.498bbe11.chunk.js",
+    "static/js/2.b77ce2b1.chunk.js",
     "static/css/main.3c716896.chunk.css",
-    "static/js/main.6f3a89f3.chunk.js"
+    "static/js/main.3f5cd0a2.chunk.js"
   ]
 }
