@@ -39,17 +39,17 @@ const KnowledgeCenterMenuItems = [
     },
     {
         title: 'Platelet donation',
-        path: '/platelet-donation',
+        path: '/platelet-donation#landing',
         cName: 'dropdown-link'
     },
     {
         title: 'Thallasaemia major',
-        path: '/thallasaemia-major',
+        path: '/thallasaemia-major#landing',
         cName: 'dropdown-link'
     },
     {
         title: 'Thallasaemia minor',
-        path: '/thallasaemia-minor',
+        path: '/thallasaemia-minor#landing',
         cName: 'dropdown-link'
     }
 ];

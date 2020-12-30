@@ -10,9 +10,9 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLink to='/#home'>Home</FooterLink>
                     <FooterLink to='/blood-donation#landing'>Blood donation</FooterLink>
-                    <FooterLink to='/platelet-donation'>Platelet donation</FooterLink>
-                    <FooterLink to='/thallasaemia-major'>Thallasaemia major</FooterLink>
-                    <FooterLink to='/thallasaemia-minor'>Thallasaemia minor</FooterLink>
+                    <FooterLink to='/platelet-donation#landing'>Platelet donation</FooterLink>
+                    <FooterLink to='/thallasaemia-major#landing'>Thallasaemia major</FooterLink>
+                    <FooterLink to='/thallasaemia-minor#landing'>Thallasaemia minor</FooterLink>
                     <FooterLink to='/about#about'>About us</FooterLink>
                     <FooterLink to='/about#support'>Support us</FooterLink>
                     <FooterLink to='/about#join'>Join us</FooterLink>

@@ -12,8 +12,7 @@ const BloodKnowledge = () => {
                 <NavigationContainer>
                     <ButtonElement to='/blood-donation#blood-facts'>Blood Facts</ButtonElement>
                     <ButtonElement to='/blood-donation#blood-donation'>Blood Donation</ButtonElement>
-                    <ButtonElement to='/blood-donation#drive-elements'>Blood Drive Elements</ButtonElement>
-                    <ButtonElement>FAQ</ButtonElement>
+                    <ButtonElement to='/blood-donation#drive-elements'>Blood Drive</ButtonElement>
                 </NavigationContainer>
                 <ContentContainer>
                     <Paragraph>

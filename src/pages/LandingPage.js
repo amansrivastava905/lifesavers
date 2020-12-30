@@ -7,7 +7,7 @@ import bloodHand from '../images/blood-hand.jpg';
 import plateletBag from '../images/platelet-bag.jpg';
 import thalMaj from '../images/thal-major.jpg';
 import thalMin from '../images/thal-minor.jpg';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const LandingPage = () => {
     return (
@@ -27,7 +27,7 @@ const LandingPage = () => {
             </HeroSection>
 
             <ImportantLinkCardContainer>
-                <LinkCard to='/blood-donation'>
+                <LinkCard to='/blood-donation#landing'>
                     <LinkImage src={bloodHand} />
                     <LinkText>
                         <LinkHead>Blood Donation</LinkHead>
@@ -36,7 +36,7 @@ const LandingPage = () => {
                          </LinkPara>
                     </LinkText>
                 </LinkCard>
-                <LinkCard to='/platelet-donation'>
+                <LinkCard to='/platelet-donation#landing'>
                     <LinkImage src={plateletBag} />
                     <LinkText>
                         <LinkHead>Platelet Donation</LinkHead>
@@ -45,7 +45,7 @@ const LandingPage = () => {
                          </LinkPara>
                     </LinkText>
                 </LinkCard>
-                <LinkCard to='/thallasaemia-major'>
+                <LinkCard to='/thallasaemia-major#landing'>
                     <LinkImage src={thalMaj} />
                     <LinkText>
                         <LinkHead>Thallasaemia major</LinkHead>
@@ -54,7 +54,7 @@ const LandingPage = () => {
                          </LinkPara>
                     </LinkText>
                 </LinkCard>
-                <LinkCard to='/thallasaemia-minor'>
+                <LinkCard to='/thallasaemia-minor#landing'>
                     <LinkImage src={thalMin} />
                     <LinkText>
                         <LinkHead>Thallasaemia minor</LinkHead>

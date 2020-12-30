@@ -6,7 +6,9 @@ import Navbar from './components/Navbar/index';
 import Footer from './components/Footer';
 import BloodKnowledge from './pages/BloodKnowledge';
 import styled from 'styled-components';
-
+import PlateletKnowledge from './pages/PlateletKnowledge'
+import ThalMajor from './pages/ThalMajor'
+import ThalMinor from './pages/ThalMinor'
 
 const App = () => {
   return (
@@ -17,6 +19,9 @@ const App = () => {
           <Route path="/" exact component={LandingPage} />
           <Route path="/about" exact component={About} />
           <Route path="/blood-donation" exact component={BloodKnowledge} />
+          <Route path="/platelet-donation" exact component={PlateletKnowledge} />
+          <Route path="/thallasaemia-major" exact component={ThalMajor} />
+          <Route path="/thallasaemia-minor" exact component={ThalMinor} />
         </Switch>
         <Footer />
       </Container>
