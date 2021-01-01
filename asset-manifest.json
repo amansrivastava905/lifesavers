@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lifesavers/static/css/main.5d9edc8e.chunk.css",
+    "main.css": "/lifesavers/static/css/main.9e74664e.chunk.css",
     "main.js": "/lifesavers/static/js/main.743be63b.chunk.js",
     "main.js.map": "/lifesavers/static/js/main.743be63b.chunk.js.map",
     "runtime-main.js": "/lifesavers/static/js/runtime-main.e61c25fb.js",
@@ -8,7 +8,7 @@
     "static/js/2.c0415683.chunk.js": "/lifesavers/static/js/2.c0415683.chunk.js",
     "static/js/2.c0415683.chunk.js.map": "/lifesavers/static/js/2.c0415683.chunk.js.map",
     "index.html": "/lifesavers/index.html",
-    "static/css/main.5d9edc8e.chunk.css.map": "/lifesavers/static/css/main.5d9edc8e.chunk.css.map",
+    "static/css/main.9e74664e.chunk.css.map": "/lifesavers/static/css/main.9e74664e.chunk.css.map",
     "static/js/2.c0415683.chunk.js.LICENSE.txt": "/lifesavers/static/js/2.c0415683.chunk.js.LICENSE.txt",
     "static/media/blood-bag.5b124996.jpg": "/lifesavers/static/media/blood-bag.5b124996.jpg",
     "static/media/blood-fact.f10f125e.jpg": "/lifesavers/static/media/blood-fact.f10f125e.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.e61c25fb.js",
     "static/js/2.c0415683.chunk.js",
-    "static/css/main.5d9edc8e.chunk.css",
+    "static/css/main.9e74664e.chunk.css",
     "static/js/main.743be63b.chunk.js"
   ]
 }
