@@ -7,7 +7,7 @@
 
 
 .navbar {
-    background-color: rgba(255, 173, 173, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 80px;
     display: flex;
     justify-content:center;
@@ -17,7 +17,7 @@
     top:0;
     width:100%;
     z-index: 1000;
-    backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(130%);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
   }
   
   .navbar-logo {
@@ -29,10 +29,6 @@
     font-size: 2rem;
   }
   
-  .fa-firstdraft {
-    margin-left: 0;
-    font-size:1.8rem;
-  }
   
   .nav-menu {
     display: grid;
@@ -53,7 +49,7 @@
   }
   
   .nav-links {
-    color: maroon;
+    color: whitesmoke;
     text-decoration: none;
     padding: 0.5rem 1rem;
   }
@@ -65,7 +61,7 @@
   }
   
   .fa-bars {
-    color:maroon;
+    color:whitesmoke;
   }
   
   .nav-links-mobile {
@@ -106,6 +102,7 @@
       padding: 2rem;
       width: 100%;
       display: table;
+      color:maroon;
     }
   
     .nav-links:hover {
@@ -131,7 +128,7 @@
     }
   
     .fa-times {
-      color: maroon;
+      color: whitesmoke;
       font-size: 2rem;
     }
   
