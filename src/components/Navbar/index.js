@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './Navbar.css';
-import {ImDroplet} from 'react-icons/im';
-
-
+import styled from 'styled-components';
+import Logo from '../../images/logo.png'
 
 
 // About us dropdown menu items
@@ -88,7 +87,9 @@ function Navbar() {
             <div>
                 <nav className='navbar'>
                     <Link to='/#home' className='navbar-logo' onClick={closeMobileMenu}>
-                        Life Savers <ImDroplet className='fab fa-firstdraft' />
+                        <LogoImgContainer>
+                            <LogoImg src={Logo}/>
+                        </LogoImgContainer>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -175,3 +176,14 @@ function Navbar() {
 
 
 export default Navbar;
+
+const LogoImgContainer = styled.div`
+
+`
+const LogoImg = styled.img`
+    width:150px;
+    @media screen and (max-width:950px)
+    {
+        width:100px;
+    }
+`
